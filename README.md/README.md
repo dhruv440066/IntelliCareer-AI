@@ -1,59 +1,80 @@
 # 🚀 IntelliCareer AI
 
-## AI-Powered Career Guidance Platform
+### AI-Powered Career Guidance Platform
 
-IntelliCareer AI is a smart career guidance platform that helps students and job seekers identify career opportunities based on their resumes.
+IntelliCareer AI is an intelligent career guidance platform that analyzes resumes and provides personalized career recommendations using AI-driven skill analysis.
 
-The system analyzes resumes, extracts skills, calculates a resume score, recommends career paths, generates learning roadmaps, interview questions, AI-powered suggestions, and downloadable PDF reports.
-
----
-
-## 📌 Problem Statement
-
-Many students struggle to understand:
-
-* Which career path suits their skills
-* What skills they are missing
-* How to prepare for interviews
-* What to learn next
-
-IntelliCareer AI solves this problem by providing personalized career insights from a resume.
+The platform helps students, freshers, and job seekers discover suitable career paths, identify skill gaps, prepare for interviews, and generate structured learning roadmaps.
 
 ---
 
-## ✨ Features
+## 🎯 Problem Statement
 
-### 📄 Resume Upload
+Many students and job seekers face challenges such as:
 
-Upload resumes in PDF format.
+* Choosing the right career path
+* Understanding their skill gaps
+* Preparing for technical interviews
+* Building an effective learning plan
+
+IntelliCareer AI solves these challenges by transforming a resume into actionable career insights.
+
+---
+
+## ✨ Key Features
+
+### 📄 Resume Upload & Analysis
+
+Upload PDF resumes and instantly analyze professional skills.
 
 ### 🛠 Skill Extraction
 
-Automatically detects technical skills from resumes.
+Automatically identifies technical skills including:
 
-### 📊 Resume Score
+* Python
+* Java
+* C++
+* Machine Learning
+* Data Analysis
+* Artificial Intelligence
+* SQL
+* Spring Boot
+* And more
 
-Evaluates resume strength and generates a score out of 100.
+### 📊 Resume Score Evaluation
 
-### 🎯 Career Matching
+Generates a resume strength score out of 100 based on detected skills and profile quality.
 
-Finds the most suitable career role based on detected skills.
+### 🎯 Career Role Recommendation
 
-### 📚 Learning Roadmap
+Matches users with suitable career roles such as:
 
-Generates a month-by-month roadmap for missing skills.
+* AI Engineer
+* Data Analyst
+* Java Developer
+* Cyber Security Analyst
 
-### 🎤 Interview Questions
+### 📚 Personalized Learning Roadmap
 
-Creates role-specific interview questions.
+Creates a month-by-month roadmap for learning missing skills.
 
-### 💡 AI Suggestions
+### 🎤 Interview Preparation
 
-Provides personalized recommendations for career growth.
+Generates role-specific interview questions to improve job readiness.
+
+### 💡 AI Career Suggestions
+
+Provides personalized recommendations for career growth and skill development.
 
 ### 📄 PDF Career Report
 
-Downloads a complete career analysis report.
+Exports a professional career analysis report including:
+
+* Resume Score
+* Career Match
+* Missing Skills
+* Learning Roadmap
+* Recommendations
 
 ---
 
@@ -64,11 +85,13 @@ Downloads a complete career analysis report.
 * React.js
 * Vite
 * Axios
+* CSS3
 
 ### Backend
 
 * FastAPI
 * Python
+* REST APIs
 
 ### Libraries
 
@@ -80,94 +103,122 @@ Downloads a complete career analysis report.
 
 ## 🔄 System Workflow
 
+```text
 Resume Upload
-
-↓
-
+      ↓
 Skill Extraction
-
-↓
-
-Resume Score Calculation
-
-↓
-
+      ↓
+Resume Score Analysis
+      ↓
 Career Matching
-
-↓
-
+      ↓
 Learning Roadmap
-
-↓
-
+      ↓
 Interview Questions
-
-↓
-
+      ↓
 AI Suggestions
-
-↓
-
+      ↓
 PDF Report Generation
+```
 
 ---
 
 ## 📂 Project Structure
 
-backend/
-
-* main.py
-* resume_parser.py
-* skill_analyzer.py
-* roadmap_generator.py
-* interview_generator.py
-* suggestion_generator.py
-* resume_scorer.py
-* report_generator.py
-
-frontened/
-
-* src/
-* App.jsx
-* App.css
-
-screenshots/
-
-README.md
-
-requirements.txt
+```text
+IntelliCareerAI/
+│
+├── backend/
+│   ├── main.py
+│   ├── resume_parser.py
+│   ├── skill_analyzer.py
+│   ├── roadmap_generator.py
+│   ├── interview_generator.py
+│   ├── suggestion_generator.py
+│   ├── resume_scorer.py
+│   └── report_generator.py
+│
+├── frontend/
+│   ├── src/
+│   ├── App.jsx
+│   └── App.css
+│
+├── screenshots/
+│
+└── README.md
+```
 
 ---
 
-## 🚀 How To Run
+## 📸 Screenshots
+
+Project screenshots are available in the **screenshots/** folder.
+
+* Dashboard UI
+* Resume Upload
+* Career Match Analysis
+* Learning Roadmap
+* Interview Questions
+* AI Suggestions
+* PDF Career Report
+
+---
+
+## 🚀 Installation & Setup
 
 ### Backend
 
 ```bash
 cd backend
+
+pip install -r requirements.txt
+
 uvicorn main:app --reload
+```
+
+Backend runs at:
+
+```text
+http://127.0.0.1:8000
 ```
 
 ### Frontend
 
 ```bash
-cd frontened
+cd frontend
+
 npm install
+
 npm run dev
+```
+
+Frontend runs at:
+
+```text
+http://localhost:5173
 ```
 
 ---
 
 ## 🔮 Future Enhancements
 
-* OpenAI/Gemini Integration
+* OpenAI / Gemini Integration
+* ATS Resume Scoring
 * Job Recommendation Engine
 * Resume Improvement Suggestions
-* ATS Score Analysis
+* LinkedIn Profile Analysis
 * Industry-Specific Career Guidance
+* Real-Time Job Market Insights
 
 ---
 
-## 👨‍💻 Developed By
+## 👨‍💻 Author
 
-Dhruv Anand
+**Dhruv Anand**
+
+GitHub:
+https://github.com/dhruv440066
+
+---
+
+⭐ If you found this project useful, consider giving it a star on GitHub.
